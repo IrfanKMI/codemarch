@@ -1,0 +1,11 @@
+table,td,th,body{
+    
+    border:2px solid black;
+}
+body{
+    padding: 10px;
+    width: 250px;
+    height:230px;
+    margin:250px auto;
+   
+}
