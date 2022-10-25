@@ -1,4 +1,4 @@
-table,td,th,body{
+table,td,th{
     
     border:2px solid black;
 }
@@ -6,6 +6,6 @@ body{
     padding: 10px;
     width: 250px;
     height:230px;
-    margin:250px auto;
-   
+/*     margin:250px auto;
+ */   
 }
