@@ -1,0 +1,28 @@
+#csstext{
+    text-align: center;
+    text-transform: uppercase;
+    color: brown;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    text-shadow: 2px 0px 5px black;
+}
+#div1{
+    border: 1px solid gray;
+    padding: 8px;
+}
+#para1{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+
+}
+.kl{
+    background-color: orange  !important;
+}
+.kt{
+    background-color: skyblue !important;
+}
+.kt{
+    background-color: aqua im !important;
+}
