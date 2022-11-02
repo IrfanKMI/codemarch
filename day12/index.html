@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #a1{
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 5px solid red;
+        }
+        #a2{
+            position: absolute;
+            top:80px;
+            right: 0px;
+            height: 100px;
+            width: 200px;
+            border:5px solid violet;
+        }
+        p:nth-child(3){
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+        p:nth-child(4){
+            font-family:"Lucida Console" 
+        }
+        p:nth-child(5)
+        {
+            font-weight: bold;
+        }
+        #p{
+            position: relative;
+            color: black;
+        }
+        #img{
+            position: absolute;
+            left: 0;
+            top:0;
+            z-index: -1;
+            height: 300px;
+            width:500px;
+
+        }
+        #ov{
+            height: 150px;
+            width: 150px;
+            overflow: scroll;
+            background-color: aqua;
+            border: 1px solid black;
+            margin-top: 250px;
+        }
+        #project{
+            background-color: #eee3cb;
+        }
+        #project >p{
+            font-family: "Sofia", sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+        #suub>p{
+            font-family: "Sofia", sans-serif;
+            text-align: center;
+            font-weight: bold;
+        }
+        #suub>img{
+            float: right;
+            width: 300px;
+            height: 330px;
+            border-radius: 20px;
+            margin-left: 20px;
+            background-color: #182747;
+        }
+        #fl>img{
+            float: left;
+            width: 100px;
+            height: 100px;
+        }
+        #fl{
+            border: 1px solid black;
+            padding: 5px;
+            margin-top: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="a1">
+        Codemarch
+        <div id="a2">
+            We help developers to understand javascript and React in depth.
+        </div>
+    </div>
+    <hr>
+    <p>This is Paragraph shown in Arial  Font</p>
+    <p>This is Paragraph shown in Lucida Console  Font.</p>
+    <p>  This is Paragraph</p>
+    <h1 style="font-size:40px";>This is heading</h1>
+    <p style="font-family: 'Sofia',sans-serif;">Codemarch</p>
+    <hr>
+    <p id="p" style="font-size: 60px;">
+        <img  id="img" src="https://surf-vertebra-418.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F11a5a435-970a-4c89-a2c8-1adddb14c767%2FUntitled.png?table=block&id=324e32ec-a320-4740-b641-c3ddd0af9142&spaceId=66db359c-8e8e-4866-ac50-3667e05560ef&width=2000&userId=&cache=v2">
+Codemarch</p>
+<div  id="ov">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni aliquid at corporis, corrupti in exercitationem molestias similique nobis. Aliquid, vel consequuntur cum deleniti quam pariatur quidem. Nihil laboriosam quo perspiciatis iste, tempora exercitationem laudantium consequatur aspernatur distinctio itaque saepe voluptatum inventore repudiandae, natus amet obcaecati quam sunt ullam iure architecto temporibus veniam. Vero fuga ab quasi laborum beatae sapiente obcaecati mollitia aliquid ea deleniti at assumenda et iure, expedita, corporis libero neque quos officiis nostrum nesciunt eveniet quas, nobis molestias cupiditate? Culpa, fugit earum unde soluta neque autem dolore officia vitae vel placeat quos, mollitia blanditiis illum accusamus recusandae eum.
+</div>
+<div id="fl">
+    <img  src="https://surf-vertebra-418.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4f02262-5dba-456f-bb4c-04ce8afc8b24%2FUntitled.jpeg?table=block&id=d15514e2-0dae-4303-9ead-0f744af4d56e&spaceId=66db359c-8e8e-4866-ac50-3667e05560ef&width=2000&userId=&cache=v2">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officiis modi voluptatem itaque maxime, voluptas distinctio quis inventore, deleniti magni perferendis doloremque aliquid? Ea non corrupti possimus omnis. Deleniti nobis, quibusdam corrupti veniam praesentium natus corporis qui nostrum aspernatur quidem in vel laudantium, officia suscipit, ratione enim nesciunt nulla consequatur repellat earum nam veritatis unde quas! Tempora iusto adipisci, laborum quibusdam quasi, perspiciatis nisi ullam alias esse quae aperiam porro.</p></div>
+
+<div id="project">
+<p>Codemarch</p>
+<div id="suub">
+    <img src="https://surf-vertebra-418.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fda225834-ac9b-432b-9f65-9c328abdb147%2FUntitled.png?table=block&id=893e226e-175b-406c-9559-89af3ec43e28&spaceId=66db359c-8e8e-4866-ac50-3667e05560ef&width=2000&userId=&cache=v2">
+
+    <p>web development</p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore praesentium commodi officiis laboriosam voluptatibus, cupiditate hic voluptatem sunt, alias esse dolore veniam exercitationem consectetur perspiciatis consequuntur repudiandae ab. Officiis distinctio voluptas iure amet similique? Quaerat optio quam aliquid a cumque ea eveniet fugiat ut dolor! Beatae at praesentium consequatur, sit perferendis officia, laudantium facere cum recusandae reiciendis ad asperiores quas maiores similique eveniet obcaecati quo quia omnis eum qui! Cumque corrupti illum hic illo nesciunt. Maxime ipsa tempore aspernatur architecto porro magnam, iusto veniam quos voluptatibus ducimus inventore veritatis minima sunt aperiam placeat cum ex consectetur eum accusantium. Autem optio beatae consectetur repellendus, atque voluptatum id ex a non accusantium ea perspiciatis dolorum? Nostrum aliquam est, cupiditate magni aspernatur tempore nesciunt. Commodi beatae temporibus quaerat asperiores unde quod odio recusandae exercitationem modi repudiandae, quae ratione ullam esse incidunt minus quo deserunt nam. Cupiditate consectetur dolores itaque dolore impedit alias, dolorem similique optio obcaecati corporis blanditiis nemo tenetur eveniet ipsa repellendus, praesentium architecto, soluta autem ab? Possimus soluta corrupti dolorum, sunt odio et at laborum accusamus nulla inventore architecto expedita debitis cupiditate nihil totam veritatis enim illo optio ratione. Veniam quia maiores illo dolores voluptate ducimus incidunt provident. Iusto, magnam alias debitis quo earum neque? Reiciendis libero sint nemo? Dignissimos soluta molestias id saepe consectetur excepturi laborum officiis aliquid libero debitis hic nesciunt ea officia itaque quia explicabo facere, quas deserunt harum reiciendis sunt dolor? Illo adipisci consequatur ut repudiandae velit similique quas eaque alias dicta ea placeat libero assumenda aliquid atque amet excepturi cumque quisquam, perspiciatis, dolor quasi molestias laborum non! Libero nobis doloribus, maiores accusantium repellendus praesentium dolor maxime nihil explicabo enim aut et reprehenderit dolorum dolore placeat aliquid commodi quidem. Eligendi eum, quas, magni animi ipsum perspiciatis non deserunt nesciunt voluptas, nihil vero. Dolorem corporis iusto necessitatibus aspernatur!
+
+
+
+</div>
+</div>
+</body>
+</html>
