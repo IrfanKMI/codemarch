@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
     <style>
+        body{
+            white-space: nowrap;
+        }
+        #footer{
+            display: none;
+        }
         nav{
             display: flex;
             align-items: center;
@@ -18,11 +24,11 @@
         body{
             margin:0;
         }
-        p{
+        section>p{
             padding: 10px;
             background-color: #33b5eb;
-            width: 250px;
-            font-size: 25px;
+            width: 25vw;
+            font-size: 3vw;
         }
         a{
             text-decoration: none;
@@ -32,26 +38,115 @@
         }
         section{
             display: inline-block;
-            width: 300px;
-            margin:25px;
+            width: 30%;
+            margin:3%;
         }
         aside{
+            vertical-align: baseline;
             display: inline-block;
-            padding:10px;
-            margin-top:20px;
+/*             align-items: flex-start;
+            flex-direction: column;
+ */            padding:10px;
+            margin-top:2%;
+            width: 60%;
+            white-space:normal;
         }
         main{
-            display: flex;
+            width:75%;
+/*             vertical-align: baseline;
+ */            display: inline-block;
+ 
         }
-        @media(max-width:480px)
+        #how{
+            box-sizing: content-box;
+            background-color: #b1b2ff;
+            margin:20px;
+            padding:10px;
+            text-align: center;
+            width:15%;
+            margin: 3%;
+/*             vertical-align: baseline;
+ */            display:inline-block;
+            
+        }
+        #now{
+/*             white-space: nowrap;
+ */        
+ box-sizing: border-box;
+ }   
+ @media(max-width:480px) {
+     #footer{
+         display: block;
+         background-color: #0099cc;
+         text-align: center;
+     }
+     
+ }
+ 
+    @media(min-width:1200px)
+ {
+    section>p{
+            padding: 10px;
+            background-color: #33b5eb;
+            width: 300px;
+            font-size: 20px;
+        }
+    section{
+            display: inline-block;
+            width: 30%;
+            margin:3%;
+        }
+        aside{
+            vertical-align: baseline;
+            display: inline-block;
+/*             align-items: flex-start;
+            flex-direction: column;
+ */            padding:10px;
+            margin-top:2%;
+            width: 60%;
+            white-space:normal;
+        }
+        aside>h1{
+         font-size: 25px;
+
+        }
+        aside>div{
+            font-size: 16px;
+        }
+
+ }
+
+/*         @media(max-width:480px)
         {
             p{
             padding: 10px;
-            background-color:#33b5eb;
+     
             font-family:'Lucida Sans', sans-serif ;
             width: 150px;
             font-size: 25px;
 
+
+        }
+        } */
+        @media(max-width:1250px)
+        {
+            main{
+            width:100%;
+/*             vertical-align: baseline;
+ */            display: inline-block;
+ 
+        }
+            #how{
+            background-color: #b1b2ff;
+            box-sizing: border-box;
+
+        
+            padding:10px;
+            margin:3%;
+/*             margin-right: 5%;
+ */            display: block;
+            width:90vw;
+        
         }
         }
     </style>
@@ -62,6 +157,7 @@
             India
         </nav>
     </header>
+    <div id="now">
     <main>
     <section>
         <p><a href="https://www.w3schools.com/java/">Java</a></p>
@@ -71,9 +167,29 @@
 
     </section>
     <aside>
-<h1 style="font-size: 28px;">Codemarch</h1>
-<div style="font-size: 20px;">We help developers to understand Javascript and React in depth. <br><br> We also provide web development tools and design resources </div>
+<h1 >Codemarch</h1>
+<div >We help developers to understand Javascript and React in depth. <br><br> We also provide web development tools and design resources </div>
     </aside>
 </main>
-</body>
-</html>
+    <div id="how">
+        <h1>Our E-Books</h1>
+        
+        <h3>What?</h3>
+        
+        <p>Web development</p>
+        
+        <h3>Where</h3>
+        
+        <p>Gumroad</p>
+    
+    <h3>How?</h3>
+    
+    <p>Free and Paid</p>
+    </div>
+</div>
+<div id="footer">
+    Copyright@2022
+</div>
+    </body>
+    </html>
+
